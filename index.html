@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://pkk.uma.ac.id/wp-content/uploads/2023/06/revo.png" type="image/x-icon">
+</head>
+
+<body>
+    <hr>
+    <nav>
+        <ul>
+            <li><img src="https://pkk.uma.ac.id/wp-content/uploads/2023/06/revo.png" class="img"></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Profile</a></li>
+            <li><a href="#">Portofolio</a></li>
+            <li><a href="#">Message Us</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="content">
+        <h2 class="judul">Hi Amir, Welcome To Website</h2>
+        <p class="isi">Ini adalah website latihan pertama</p>
+        <img src="https://assets-global.website-files.com/63885023ce09978b48be0ff9/6391ff5329871f26aebe4251_revou%20mini%20course%20logo.png"
+            alt="1366x578" class="img-content">
+    </div>
+    <hr>
+    <hr>
+    <div class="header-content">
+        <div class="judul-content">
+            <h2>Our Headquarter</h2>
+        </div>
+        <div class="img-header">
+            <img src="./asset/img/jakarta.jpeg">
+            <p>Jakarta</p>
+            <img src="./asset/img/bandung.jpg">
+            <p>Bandung</p>
+            <img src="/asset/img/surabaya.jpg">
+            <p>Surabaya</p>
+        </div>
+    </div>
+    <hr>
+    <div class="message">
+        <h2>Message Us</h2>
+        <div class="box">
+            <label>Nama :</label>
+            <input type="text" id="nama" placeholder="Nama"> <br>
+            <label>Tanggal Lahir :</label>
+            <input type="date" id="tanggal_lahir"> <br>
+            <label>Jenis Kelamin :</label>
+            <label for="laki-laki">
+                <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-Laki" checked>Laki-Laki
+            </label>
+            <label for="perempuan">
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">Perempuan
+            </label>
+            <div class="pesan">
+                <label>Pesan :</label>
+            </div>
+            <textarea id="pesan" rows="10" placeholder="pesan"></textarea> <br>
+            <button onclick="submitForm()">Submit</button>
+        </div>
+    </div>
+    <div id="data-pengguna">
+    </div>
+    <hr>    
+    <script src="./js/script.js"></script>
+    <div class="footer"> <br>
+        <p>Created By Amir Syahrul Ramadhan</p>
+    </div> <br>
+    <hr>
+</body>
+
+</html>
